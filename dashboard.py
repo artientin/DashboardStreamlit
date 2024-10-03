@@ -17,7 +17,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 # Membaca data
-data_cleaned = pd.read_csv('AnalisisData\all_data.csv')
+data_cleaned = pd.read_csv('all_data.csv')
 
 # Pilih tahun
 year = data_cleaned['year'].unique()
